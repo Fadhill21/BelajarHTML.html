@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar bikin Form</title>
+</head>
+
+<body>
+  <form>
+    <div>
+      <label for="nama-depan">Nama Depan</label> <br>
+      <input id="nama-depan" name="nama_depan" placeholder="Nama Depan">
+    </div>
+
+    <div style="margin-top: 1rem">
+      <label for="nama-belakang">Nama Belakang</label> <br>
+      <input id="nama-belakang" name="nama_belakang" placeholder="Nama Belakang">
+    </div>
+  </form>
+
+
+  <h3>Tombol pilihan bulat</h3>
+  <form>
+    Jenis kelamin: <br>
+
+    <div>
+      <input id="lk" type="radio" name="jenis_kelamin">
+      <label for="lk">Laki-Laki</label>
+    </div>
+
+    <div>
+      <input id="pr" type="radio" name="jenis_kelamin">
+      <label for="pr">Perempuan</label>
+    </div>
+  </form>
+
+  <h3>Tombol pilihan check list</h3>
+  <form>
+    Jenis kelamin: <br>
+
+    <div>
+      <input id="lk" type="checkbox" name="jenis_kelamin">
+      <label for="lk">Laki-Laki</label>
+    </div>
+
+    <div>
+      <input id="pr" type="checkbox" name="jenis_kelamin">
+      <label for="pr">Perempuan</label>
+    </div>
+  </form>
+
+  <h3>Cara Input Submit</h3>
+  <form>
+    <input type="text" name="nama" value="Joni"> <br>
+    <input type="submit" value="Simpan">
+  </form>
+
+  <h3>Pilihan Opsi aktif</h3>
+  <label for='jenis-kelamin'>Jenis Kelamin</label> <br>
+  <select id="jenis-kelamin" name="jenis_kelamin">
+    <option value="lk">Laki-laki</option>
+    <option value="pr" selected>Perempuan</option>
+    <option value="rahasia">Rahasia</option>
+  </select>
+
+  <h3>Memperlebar tempat teks</h3>
+  <form>
+    <label for="nama">Nama</label> <br>
+    <input id="nama" name="nama" value="Suparman"> <br>
+
+    <label for="alamat">Alamat</label> <br>
+    <textarea id="alamat" name="alamat" rows="5" cols="20">Surabaya</textarea> <br>
+  </form>
+
+  <h3>Fieldset dan Legend</h3>
+  <form>
+    <fieldset>
+      <legend>Data Diri</legend>
+      <label for="nama">Nama</label><br>
+      <input id="nama" name="nama"><br>
+      <label for="asal">Asal</label><br>
+      <input id="asal" name="asal"><br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Blog & Sosmed</legend>
+      <label for="instagram">Instagram</label><br>
+      <input id="instagram" name="instagram" type="url"><br>
+      <label for="facebook">Facebook</label><br>
+      <input id="facebook" name="facebook" type="url"><br>
+      <label for="twitter">Twitter</label><br>
+      <input id="twitter" name="twitter" type="url"><br>
+      <label for="Youtube">Youtube</label><br>
+      <input id="Youtube" name="Youtube" type="url"><br>
+    </fieldset>
+  </form>
+
+  <form>
+    <label for="isian-email">Masukkan email:</label> <br>
+    <input id="isian-email" type="email" value=""> <br> <br>
+    <label for="isian-password">Masukkan password</label> <br>
+    <input id="isian-password" type="password" name="password">
+    <button>Submit</button>
+  </form>
+
+
+</body>
+
+</html>

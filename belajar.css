@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(270deg, #b004ff, #00ffaa, #fbff00);
+
+    background-size: 600% 600%;
+
+    animation: gradientShift 5s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    font-weight: bold;
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+h2 {
+
+    font-weight: bold;
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+h3 {
+
+    font-weight: bold;
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+h4 {
+
+    font-weight: bold;
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+h5 {
+
+    font-weight: bold;
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+h6 {
+
+    font-weight: bold;
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+p {
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+marquee {
+    font-weight: bold;
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+i {
+    font-weight: bold;
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+figure {
+    font-weight: bold;
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+mark {
+    background: linear-gradient(270deg, #050300, #33ff00, #08ceff, rgb(255, 0, 0));
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 2s ease infinite;
+}
+
+@keyframes textGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.aku {
+    width: 100px;
+    border: 3px solid rgb(255, 0, 0);
+    animation: borderColor 2s infinite
+}
+
+
+@keyframes borderColor {
+    0% {
+        border-color: red;
+    }
+
+    25% {
+        border-color: blue;
+    }
+
+    50% {
+        border-color: green;
+    }
+
+    75% {
+        border-color: orange;
+    }
+
+    100% {
+        border-color: purple;
+    }
+}
